@@ -68,10 +68,11 @@
     color: #333
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
     .article-clean .text p {
         font-size: 16px
     }
+
     .article-clean .text h2 {
         font-size: 20px
     }
@@ -88,13 +89,13 @@
     max-width: 100%
 }
 
-@media (min-width:300px) {
+@media (min-width: 300px) {
     #title {
         font-size: x-large
     }
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
     #title {
         font-size: xx-large
     }
@@ -110,7 +111,7 @@
     padding: 80px 0
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
     .contact-clean {
         padding: 20px 0
     }
@@ -127,7 +128,7 @@
     box-shadow: 1px 1px 5px rgba(0, 0, 0, .1)
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
     .contact-clean form {
         padding: 30px
     }
@@ -174,7 +175,7 @@
     opacity: .9;
     font-size: 13px;
     line-height: 1;
-    outline: 0!important
+    outline: 0 !important
 }
 
 .contact-clean form .btn:hover {
@@ -182,7 +183,7 @@
 }
 
 .contact-clean form .btn-primary {
-    background-color: #055ada!important;
+    background-color: #055ada !important;
     margin-top: 15px;
     color: #fff
 }
@@ -204,10 +205,11 @@
     color: inherit
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
     .features-clean {
         padding-bottom: 10px
     }
+
     .features-clean h2 {
         margin-bottom: 25px;
         padding-top: 25px;
@@ -226,10 +228,11 @@
     margin-bottom: 40px
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
     .features-clean .intro {
         margin-bottom: 40px
     }
+
     .features-clean .item {
         min-height: 0
     }
@@ -269,7 +272,6 @@
     padding: 0;
     list-style: none;
     line-height: 1.6;
-    font-size: 14px;
     margin-bottom: 0
 }
 
@@ -287,11 +289,12 @@
     margin-bottom: 36px
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
     .footer-dark .item:not(.social) {
         text-align: center;
         padding-bottom: 20px
     }
+
     .footer-dark .item.text {
         margin-bottom: 0
     }
@@ -306,14 +309,14 @@
     text-align: center
 }
 
-@media (max-width:991px) {
+@media (max-width: 991px) {
     .footer-dark .item.social {
         text-align: center;
         margin-top: 20px
     }
 }
 
-.footer-dark .item.social>a {
+.footer-dark .item.social > a {
     font-size: 20px;
     width: 36px;
     height: 36px;
@@ -327,7 +330,7 @@
     opacity: .75
 }
 
-.footer-dark .item.social>a:hover {
+.footer-dark .item.social > a:hover {
     opacity: .9
 }
 
@@ -390,7 +393,7 @@
 }
 
 .img-hvr-scale {
-    transform: scale(1)!important;
+    transform: scale(1) !important;
     object-fit: cover;
     transition: .4s;
     border: 2px solid;
@@ -399,7 +402,7 @@
 }
 
 .img-hvr-scale:hover {
-    transform: scale(1.1)!important;
+    transform: scale(1.1) !important;
     border: 2px solid
 }
 
@@ -416,7 +419,7 @@
     background: #232323
 }
 
-.portfolio_col_carousel_wrapper .carousel-item>.row {
+.portfolio_col_carousel_wrapper .carousel-item > .row {
     margin: 0
 }
 
@@ -435,24 +438,24 @@
 
 .portfolio_col_carousel_control_icons {
     line-height: 35px;
-    font-size: 20px!important;
-    font-weight: 400!important
+    font-size: 20px !important;
+    font-weight: 400 !important
 }
 
 .portfolio_col_carousel_control_left {
-    left: 26px!important
+    left: 26px !important
 }
 
 .portfolio_col_carousel_control_right {
-    left: 63px!important
+    left: 63px !important
 }
 
 .adv_left {
-    left: 41px!important
+    left: 41px !important
 }
 
 .adv_right {
-    left: 78px!important
+    left: 78px !important
 }
 
 .portfolio_col_item_caption {
@@ -614,19 +617,19 @@
     color: #fff
 }
 
-@media (min-width:300px) {
+@media (min-width: 300px) {
     #box-2 {
         background-image: url(../../assets/img/manmobile.jpg)
     }
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
     #box-2 {
         background-image: url(../../assets/img/manmobile.jpg)
     }
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
     #box-2 {
         background-image: url(../../assets/img/man.jpg)
     }
@@ -648,7 +651,7 @@
     margin-top: 15%
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
     #highlight {
         margin-left: 10%
     }
@@ -727,11 +730,11 @@ section {
 
 .bg-dark {
     transition: 750ms ease;
-    background-color: transparent!important;
+    background-color: transparent !important;
 }
 
 .bg-dark.scrolled {
-    background-color: black!important;
+    background-color: black !important;
 }
 
 .back-to-top {
