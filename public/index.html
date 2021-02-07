@@ -53,11 +53,11 @@
                             </span>
                     </h1>
                 </div>
-                <div class="text-left buttons" data-aos="fade" data-aos-duration="1000" data-aos-delay="300"><a
-                        class="btn btn-secondary" role="button" data-bs-hover-animate="pulse" id="botaohero"
-                        href="#about"
-                        style="background-color: rgba(221,221,221,0);color: rgb(255,255,255);margin: 0;border: double;border-radius: 30px;">Saiba
-                    mais</a>
+                <div class="text-left buttons" data-aos="fade" data-aos-duration="1000" data-aos-delay="300">
+                    <a id="button-sb" class="btn btn-secondary" role="button" data-bs-hover-animate="pulse" href="#about"
+                       style="background-color: rgba(221,221,221,0);color: rgb(255,255,255);margin: 0;border: double;border-radius: 30px;">
+                        Saiba mais
+                    </a>
                 </div>
             </div>
         </div>
@@ -351,6 +351,14 @@
             scrollTop: targetOffset - 100
         }, 500);
     });
+    $('#button-sb').on('click', function (e) {
+        e.preventDefault();
+        var id = $(this).attr('href'),
+            targetOffset = $(id).offset().top;
+        $('html, body').animate({
+            scrollTop: targetOffset - 100
+        }, 500);
+    })
 </script>
 <script src="assets/js/scripts.js"></script>
 </body>
